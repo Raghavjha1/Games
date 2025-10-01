@@ -1,0 +1,11 @@
+for i in range(3):
+    a=input("Enter person 1st choice:")
+    b=input("Enter person 2nd choice:")
+    if a=='r' and b=='p':print("b")
+    elif a=='p' and b=='r':print("a")
+    elif a=='s' and b=='r':print("b")
+    elif a=='r' and b=='s':print("a")
+    elif a=='p' and b=='s':print("b")
+    elif a=='s' and b=='p':print("b")
+    elif a==b :print("draw")
+    else:printf("invalid")
